@@ -1,0 +1,6 @@
+textFile = open("abc.txt", "rt")
+print(textFile.readline())
+textFile.close()
+binFile = open("abc.txt", "rb")
+print(binFile.readline())
+binFile.close()
